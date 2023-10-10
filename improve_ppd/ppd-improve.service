@@ -1,0 +1,8 @@
+[Unit]
+Description=Detect changes to PPD using D-Bus and reflect them in AMD EPP 
+
+[Service]
+ExecStart=/bin/bash <location of the script>
+
+[Install]
+WantedBy=multi-user.target
