@@ -10,4 +10,4 @@ This script also sets the graphics power profile to "low" when the power profile
 and sets the graphics profile to "auto" elsewhere, like it is by default.
 
 ## Installation:
-To start this script on boot you need to add and enable the systemd service file to your files, replacing <location of the script> with the right location.
+To start this script on boot you need to add and enable the systemd service file to your files, replacing `<location of the script>` with the right location.
