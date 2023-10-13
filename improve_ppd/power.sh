@@ -6,7 +6,7 @@ member=PropertiesChanged
 
 function updateEpp {
 	active_profile=$(gdbus introspect --system --dest net.hadess.PowerProfiles --object-path /net/hadess/PowerProfiles | grep -oP "(?<=ActiveProfile = ')[^']+")
-	selected_epp=""
+	selected_epp="balance_power"
 	amdgpu_dpm_level="auto"
 	case "$active_profile" in
 		"power-saver")
