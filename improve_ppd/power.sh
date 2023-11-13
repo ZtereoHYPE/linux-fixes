@@ -23,6 +23,7 @@ function updateEpp {
 
 	echo $selected_epp | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/energy_performance_preference
 	# This only applies to the iGPU. The dGPU lays in /card0
+ 	# TODO: this is actually not always true. linux doesn't load them consistently. Look into fixing this.
 	echo $amdgpu_dpm_level | sudo tee  /sys/class/drm/card2/device/power_dpm_force_performance_level
 }
 
