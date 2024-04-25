@@ -1,3 +1,6 @@
+# NOTE: this has been fixed upstream
+power-profile-deamons now properly sets EPP on amd cpus that support it!
+
 # Improving power-profiles-daemon on AMD laptops:
 
 Right now, power-profile-daemons does not use AMD's EPP (Energy Performance Preference) feature if your laptop also has a platform-profile driver. 

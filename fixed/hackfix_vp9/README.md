@@ -1,3 +1,6 @@
+# NOTE: this has been fixed upstream
+The patches to the firmware have been submitted and this bug is mostly gone, only manifesting itself in the form of mild youtube stutters until the playback has been fast fowarded once or twice with the arrows.
+
 # VP9 decoder issues...
 See more at: 
 https://gitlab.freedesktop.org/mesa/mesa/-/issues/8044
